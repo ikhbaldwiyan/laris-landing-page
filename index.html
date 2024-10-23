@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#B7EB38",
+              secondary: "#0B251C",
+              background: "#EDF3F1",
+              divider: "#6C8079"
+            }
+          },
+          fontFamily: {
+            sans: ["Raleway", "sans-serif"],
+            raleway: ["Raleway", "sans-serif"]
+          }
+        }
+      };
+    </script>
+  </head>
+  <body class="py-8 bg-background">
+    <!-- Header -->
+    <div
+      class="w-100 flex justify-between items-center bg-secondary p-4 rounded-full px-8 mx-20"
+    >
+      <div class="flex items-center gap-[30px]">
+        <img src="assets/logo.svg" alt="Pasti Laris" />
+        <div class="border-r-2 border-divider self-stretch"></div>
+        <ul class="text-white font-semibold flex gap-10">
+          <li class="text-primary underline">Features</li>
+          <li>vs. Slock</li>
+          <li>Pricing</li>
+          <li>Showcase</li>
+        </ul>
+      </div>
+      <div class="flex gap-4">
+        <button
+          class="bg-white font-semibold text-secondary rounded-full p-2.5 px-5"
+        >
+          Call Sales
+        </button>
+        <button
+          class="text-white border-white border font-semibold bg-secondary rounded-full p-2.5 px-5"
+        >
+          My Account
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex items-center justify-between py-24 mx-[75px]">
+      <div class="flex flex-col gap-[30px]">
+        <h1 class="text-secondary text-[60px] font-extrabold leading-tight">
+          <span class="inline-block bg-primary px-2 py-1">Making</span> Great
+          <br />
+          Buisness
+          <span class="inline-block bg-primary px-2 py-1">Decision</span>
+        </h1>
+        <p class="max-w-[474px] text-lg">
+          Track your customers behavior to make a good decision that helps the
+          customer use our services better way.
+        </p>
+        <div class="flex gap-[14px]">
+          <button
+            class="bg-primary font-bold text-secondary rounded-full p-4 px-6"
+          >
+            Get Started, It’s Free
+          </button>
+          <button
+            class="bg-background border-secondary border font-semibold text-secondary rounded-full p-4 px-6"
+          >
+            Watch Demo
+          </button>
+        </div>
+      </div>
+      <img src="assets/banner_hero.svg" width="auto" alt="Hero Banner" />
+    </div>
+    <div class="flex flex-col gap-[30px] justify-center text-center mb-16">
+      <div class="font-bold text-[32px]">
+        We’re Helping Big <br />
+        Global Companies Grow
+      </div>
+      <div class="flex justify-center gap-[70px]">
+        <img src="assets/partners/logo-52.svg" />
+        <img src="assets/partners/logo-27.svg" />
+        <img src="assets/partners/logo-54.svg" />
+        <img src="assets/partners/logo-51.svg" />
+        <img src="assets/partners/logo-54.svg" />
+      </div>
+    </div>
+
+    
+  </body>
+</html>
