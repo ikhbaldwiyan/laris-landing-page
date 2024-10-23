@@ -33,11 +33,11 @@
   <body class="py-8 bg-background">
     <!-- Header -->
     <div
-      class="w-100 flex justify-between items-center bg-secondary p-4 rounded-full px-8 mx-20"
+      class="w-100 flex justify-between items-center bg-secondary p-4 py-3 rounded-full px-8 mx-20"
     >
       <div class="flex items-center gap-[30px]">
         <img src="assets/logo.svg" alt="Pasti Laris" />
-        <div class="border-r-2 border-divider self-stretch"></div>
+        <div class="border-r-2 border-divider h-[50px]"></div>
         <ul class="text-white font-semibold flex gap-10">
           <li class="text-primary underline">Features</li>
           <li>vs. Slock</li>
@@ -60,15 +60,15 @@
     </div>
 
     <!-- Main Content -->
-    <div class="flex items-center justify-between py-24 mx-[75px]">
+    <div class="flex items-center justify-between py-20 mx-[75px]">
       <div class="flex flex-col gap-[30px]">
         <h1 class="text-secondary text-[60px] font-extrabold leading-tight">
-          <span class="inline-block bg-primary px-2 py-1">Making</span> Great
+          <span class="inline-block bg-primary leading-10">Making</span> Great
           <br />
           Buisness
-          <span class="inline-block bg-primary px-2 py-1">Decision</span>
+          <span class="inline-block bg-primary leading-10">Decision</span>
         </h1>
-        <p class="max-w-[474px] text-lg">
+        <p class="max-w-[474px] text-lg font-medium text-secondary">
           Track your customers behavior to make a good decision that helps the
           customer use our services better way.
         </p>
@@ -211,31 +211,19 @@
             <ul class="flex flex-col gap-5 font-bold text-lg">
               <li>
                 <div class="flex gap-3">
-                  <img
-                    src="assets/icon/checklist.svg"
-                    alt="checklist"
-                    srcset=""
-                  />
+                  <img src="assets/icon/checklist.svg" alt="checklist" />
                   <span>Auto running when reaches certain number</span>
                 </div>
               </li>
               <li>
                 <div class="flex gap-3">
-                  <img
-                    src="assets/icon/checklist.svg"
-                    alt="checklist"
-                    srcset=""
-                  />
+                  <img src="assets/icon/checklist.svg" alt="checklist" />
                   <span>Sending message to server for repeatation</span>
                 </div>
               </li>
               <li>
                 <div class="flex gap-3">
-                  <img
-                    src="assets/icon/checklist.svg"
-                    alt="checklist"
-                    srcset=""
-                  />
+                  <img src="assets/icon/checklist.svg" alt="checklist" />
                   <span>Reporting and extracting the data</span>
                 </div>
               </li>
@@ -294,7 +282,6 @@
           width="384"
           alt="arrow-top"
           class="ml-16 mb-8"
-          srcset=""
         />
         <div class="flex gap-[80px]">
           <div class="flex flex-col gap-[20px]">
@@ -338,7 +325,6 @@
             width="384"
             alt="arrow-top"
             class="mt-8 mr-28"
-            srcset=""
           />
         </div>
       </div>
@@ -350,28 +336,20 @@
           <img src="assets/icon/rate.svg" width="148" alt="rating" />
           <h1 class="text-[32px] font-bold max-w-[470px] text-start">
             Pastilaris figured out that our previous
-            <span class="bg-primary py-1">system lacking of automation</span>
+            <span class="bg-primary py-1 px-2">system lacking of automation</span>
             and spend a lot of time doing wrong things.
           </h1>
           <p class="font-medium">Angga Yin, CEO Digissets Ltd</p>
           <ul class="flex flex-col gap-5 font-bold text-lg">
             <li>
               <div class="flex gap-3">
-                <img
-                  src="assets/icon/checklist-black.svg"
-                  alt="checklist"
-                  srcset=""
-                />
+                <img src="assets/icon/checklist-black.svg" alt="checklist" />
                 <span>Business successfully growth</span>
               </div>
             </li>
             <li>
               <div class="flex gap-3">
-                <img
-                  src="assets/icon/checklist-black.svg"
-                  alt="checklist"
-                  srcset=""
-                />
+                <img src="assets/icon/checklist-black.svg" alt="checklist" />
                 <span>Reduce bottleneck in ecosystem</span>
               </div>
             </li>
@@ -414,7 +392,7 @@
     </div>
 
     <!-- Footer Section -->
-    <div class="bg-white py-20">
+    <div class="bg-white text-secondary py-20">
       <div class="flex justify-between px-40">
         <div class="flex gap-5 flex-col w-1/3">
           <img src="assets/logo-black.svg" width="176" alt="Logo" />
@@ -422,13 +400,12 @@
             SaaS template by BuildWithAngga <br />
             to help big companies grow.
           </p>
-          <p>Copyrights Pastilaris.</p>
         </div>
 
         <div class="flex justify-between gap-[70px] w-2/3">
           <div class="flex flex-col gap-5 w-1/3">
             <p class="font-semibold font-poppins">Product</p>
-            <ul class="flex flex-col font-medium gap-5">
+            <ul class="flex flex-col font-medium gap-5 cursor-pointer">
               <li>SaaS Web Builder</li>
               <li>Copywriting Templates</li>
               <li>Automation Tools</li>
@@ -437,7 +414,7 @@
           </div>
           <div class="flex flex-col gap-5 w-1/3">
             <p class="font-semibold font-poppins">Company</p>
-            <ul class="flex flex-col font-medium gap-5">
+            <ul class="flex flex-col font-medium gap-5 cursor-pointer">
               <li>Privacy Policy</li>
               <li>Help Center</li>
               <li>Terms Conditions</li>
@@ -446,7 +423,7 @@
           </div>
           <div class="flex flex-col gap-5 w-1/3">
             <p class="font-semibold font-poppins">Developer</p>
-            <ul class="flex flex-col font-medium gap-5">
+            <ul class="flex flex-col font-medium gap-5 cursor-pointer">
               <li>API Documentations</li>
               <li>Product Knowledges</li>
               <li>Ticketing Support</li>
