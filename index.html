@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -18,7 +22,8 @@
           },
           fontFamily: {
             sans: ["Raleway", "sans-serif"],
-            raleway: ["Raleway", "sans-serif"]
+            raleway: ["Raleway", "sans-serif"],
+            poppins: ["Poppins", "sans-serif"]
           }
         }
       };
@@ -95,6 +100,40 @@
       </div>
     </div>
 
-    
+    <!-- Company Info -->
+    <div class="bg-secondary px-16 py-10 relative overflow-hidden">
+      <img src="assets/bg.svg" class="absolute right-0 top-0 h-full" alt="" />
+      
+      <div class="relative z-10 flex justify-between">
+        <h3 class="text-white font-bold text-[32px] max-w-md">
+          We Have Big Reasons <br />
+          Improve People's Life Today
+        </h3>
+        
+        <div class="flex gap-20">
+          <div class="flex items-start gap-4">
+            <img class="mt-2" width="50" src="assets/icon/crown.svg" alt="" />
+            <div>
+              <span class="text-white font-poppins font-bold text-[42px]">12,390</span>
+              <p class="text-white font-light">
+                Happy Customers <br />
+                Using Product
+              </p>
+            </div>
+          </div>
+          
+          <div class="flex items-start gap-4">
+            <img class="mt-2" width="50" src="assets/icon/square.svg" alt="" />
+            <div>
+              <span class="text-white font-poppins font-bold text-[42px]">829</span>
+              <p class="text-white font-light">
+                Successful On <br />
+                Big Projects
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
